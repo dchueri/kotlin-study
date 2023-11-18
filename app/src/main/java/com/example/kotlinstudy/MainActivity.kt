@@ -9,8 +9,6 @@ import android.widget.TextView
 class MainActivity: Activity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        val view = TextView(this)
-        view.text = "Hello world"
-        setContentView(view)
+        setContentView(R.layout.activity_main)
     }
 }
